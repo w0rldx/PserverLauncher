@@ -41,44 +41,44 @@ Public Class ManagerForm
             accountserverrunning = False
         End If
 
-        If Process.GetProcessesByName("DatabaseServer").Length > 0 Then
+        If Process.GetProcessesByName("Certifier").Length > 0 Then
             CarbonFiberLabel9.Text = Onlinestatus
-            Databaseserverisrunning = True
+            certifierisrunning = True
         Else
             CarbonFiberLabel9.Text = defaultstatus
+            certifierisrunning = False
+        End If
+
+        If Process.GetProcessesByName("DatabaseServer").Length > 0 Then
+            CarbonFiberLabel10.Text = Onlinestatus
+            Databaseserverisrunning = True
+        Else
+            CarbonFiberLabel10.Text = defaultstatus
             Databaseserverisrunning = False
         End If
 
         If Process.GetProcessesByName("CoreServer").Length > 0 Then
-            CarbonFiberLabel10.Text = Onlinestatus
+            CarbonFiberLabel11.Text = Onlinestatus
             coreserverisrunning = True
         Else
-            CarbonFiberLabel10.Text = defaultstatus
+            CarbonFiberLabel11.Text = defaultstatus
             coreserverisrunning = False
         End If
 
-        If Process.GetProcessesByName("Certifier").Length > 0 Then
-            CarbonFiberLabel11.Text = Onlinestatus
-            certifierisrunning = True
+        If Process.GetProcessesByName("LoginServer").Length > 0 Then
+            CarbonFiberLabel12.Text = Onlinestatus
+            loginserverisrunning = True
         Else
-            CarbonFiberLabel11.Text = defaultstatus
-            certifierisrunning = False
+            CarbonFiberLabel12.Text = defaultstatus
+            loginserverisrunning = False
         End If
 
         If Process.GetProcessesByName("CacheServer").Length > 0 Then
-            CarbonFiberLabel12.Text = Onlinestatus
+            CarbonFiberLabel13.Text = Onlinestatus
             cacheserverisrunning = True
         Else
-            CarbonFiberLabel12.Text = defaultstatus
-            cacheserverisrunning = False
-        End If
-
-        If Process.GetProcessesByName("LoginServer").Length > 0 Then
-            CarbonFiberLabel13.Text = Onlinestatus
-            loginserverisrunning = True
-        Else
             CarbonFiberLabel13.Text = defaultstatus
-            loginserverisrunning = False
+            cacheserverisrunning = False
         End If
 
         If Process.GetProcessesByName("WorldServer").Length > 0 Then
@@ -111,7 +111,22 @@ Public Class ManagerForm
                 MsgBox("Die Datei wurde nicht gefunden oder existiert nicht" & vbCrLf & "Bitte überprüfe ob sich die datei im /Program Ordner befindet", MsgBoxStyle.Critical, "Accountserver.exe")
                 Return
             End If
+            System.Threading.Thread.Sleep(1000)
         End If
+
+        If Not certifierisrunning = True Then
+            Certifier.StartInfo.WorkingDirectory = CurrentPath & "\Program"
+            Certifier.StartInfo.FileName = CurrentPath & "\Program\Certifier.exe"
+            If My.Computer.FileSystem.FileExists(path + "\Program\Certifier.exe") Then
+                Certifier.Start()
+                certifierisrunning = True
+            Else
+                MsgBox("Die Datei wurde nicht gefunden oder existiert nicht" & vbCrLf & "Bitte überprüfe ob sich die datei im /Program Ordner befindet", MsgBoxStyle.Critical, "Certifier.exe")
+                Return
+            End If
+            System.Threading.Thread.Sleep(1000)
+        End If
+
         If Not Databaseserverisrunning = True Then
             DatabaseServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
             DatabaseServer.StartInfo.FileName = CurrentPath & "\Program\DatabaseServer.exe"
@@ -124,6 +139,7 @@ Public Class ManagerForm
             End If
             System.Threading.Thread.Sleep(5000)
         End If
+
         If Not coreserverisrunning = True Then
             CoreServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
             CoreServer.StartInfo.FileName = CurrentPath & "\Program\CoreServer.exe"
@@ -134,29 +150,9 @@ Public Class ManagerForm
                 MsgBox("Die Datei wurde nicht gefunden oder existiert nicht" & vbCrLf & "Bitte überprüfe ob sich die datei im /Program Ordner befindet", MsgBoxStyle.Critical, "CoreServer.exe")
                 Return
             End If
+            System.Threading.Thread.Sleep(1000)
         End If
-        If Not certifierisrunning = True Then
-            Certifier.StartInfo.WorkingDirectory = CurrentPath & "\Program"
-            Certifier.StartInfo.FileName = CurrentPath & "\Program\Certifier.exe"
-            If My.Computer.FileSystem.FileExists(path + "\Program\Certifier.exe") Then
-                Certifier.Start()
-                certifierisrunning = True
-            Else
-                MsgBox("Die Datei wurde nicht gefunden oder existiert nicht" & vbCrLf & "Bitte überprüfe ob sich die datei im /Program Ordner befindet", MsgBoxStyle.Critical, "Certifier.exe")
-                Return
-            End If
-        End If
-        If Not cacheserverisrunning = True Then
-            CacheServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
-            CacheServer.StartInfo.FileName = CurrentPath & "\Program\CacheServer.exe"
-            If My.Computer.FileSystem.FileExists(path + "\Program\CacheServer.exe") Then
-                CacheServer.Start()
-                cacheserverisrunning = True
-            Else
-                MsgBox("Die Datei wurde nicht gefunden oder existiert nicht" & vbCrLf & "Bitte überprüfe ob sich die datei im /Program Ordner befindet", MsgBoxStyle.Critical, "CacheServer.exe")
-                Return
-            End If
-        End If
+
         If Not loginserverisrunning = True Then
             LoginServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
             LoginServer.StartInfo.FileName = CurrentPath & "\Program\LoginServer.exe"
@@ -167,7 +163,22 @@ Public Class ManagerForm
                 MsgBox("Die Datei wurde nicht gefunden oder existiert nicht" & vbCrLf & "Bitte überprüfe ob sich die datei im /Program Ordner befindet", MsgBoxStyle.Critical, "LoginServer.exe")
                 Return
             End If
+            System.Threading.Thread.Sleep(1000)
         End If
+
+        If Not cacheserverisrunning = True Then
+            CacheServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
+            CacheServer.StartInfo.FileName = CurrentPath & "\Program\CacheServer.exe"
+            If My.Computer.FileSystem.FileExists(path + "\Program\CacheServer.exe") Then
+                CacheServer.Start()
+                cacheserverisrunning = True
+            Else
+                MsgBox("Die Datei wurde nicht gefunden oder existiert nicht" & vbCrLf & "Bitte überprüfe ob sich die datei im /Program Ordner befindet", MsgBoxStyle.Critical, "CacheServer.exe")
+                Return
+            End If
+            System.Threading.Thread.Sleep(1000)
+        End If
+
         If Not worldserverisrunning = True Then
             WorldServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
             WorldServer.StartInfo.FileName = CurrentPath & "\Program\WorldServer.exe"
@@ -178,6 +189,7 @@ Public Class ManagerForm
                 MsgBox("Die Datei wurde nicht gefunden oder existiert nicht" & vbCrLf & "Bitte überprüfe ob sich die datei im /Program Ordner befindet", MsgBoxStyle.Critical, "WorldServer.exe")
                 Return
             End If
+            System.Threading.Thread.Sleep(1000)
         End If
     End Sub
 
@@ -189,45 +201,53 @@ Public Class ManagerForm
         stoping()
     End Sub
     Public Sub stoping()
-        If accountserverrunning = True Then
-            AccountServer.StartInfo.FileName = "AccountServer.exe"
-            AccountServer.CloseMainWindow()
-            accountserverrunning = False
+        If worldserverisrunning = True Then
+            WorldServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
+            WorldServer.StartInfo.FileName = CurrentPath & "\Program\WorldServer.exe"
+            WorldServer.CloseMainWindow()
+            worldserverisrunning = False
         End If
-        If Databaseserverisrunning = True Then
-            DatabaseServer.StartInfo.FileName = CurrentPath & "DatabaseServer.exe"
-            DatabaseServer.CloseMainWindow()
-            Databaseserverisrunning = False
-        End If
-        If coreserverisrunning = True Then
-            CoreServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
-            CoreServer.StartInfo.FileName = CurrentPath & "\Program\CoreServer.exe"
-            CoreServer.CloseMainWindow()
-            coreserverisrunning = False
-        End If
-        If certifierisrunning = True Then
-            Certifier.StartInfo.WorkingDirectory = CurrentPath & "\Program"
-            Certifier.StartInfo.FileName = CurrentPath & "\Program\Certifier.exe"
-            Certifier.CloseMainWindow()
-            certifierisrunning = False
-        End If
+
         If cacheserverisrunning = True Then
             CacheServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
             CacheServer.StartInfo.FileName = CurrentPath & "\Program\CacheServer.exe"
             CacheServer.CloseMainWindow()
             cacheserverisrunning = False
         End If
+
         If loginserverisrunning = True Then
             LoginServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
             LoginServer.StartInfo.FileName = CurrentPath & "\Program\LoginServer.exe"
             LoginServer.CloseMainWindow()
             loginserverisrunning = False
         End If
-        If worldserverisrunning = True Then
-            WorldServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
-            WorldServer.StartInfo.FileName = CurrentPath & "\Program\WorldServer.exe"
-            WorldServer.CloseMainWindow()
-            worldserverisrunning = False
+
+        If coreserverisrunning = True Then
+            CoreServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
+            CoreServer.StartInfo.FileName = CurrentPath & "\Program\CoreServer.exe"
+            CoreServer.CloseMainWindow()
+            coreserverisrunning = False
+        End If
+
+        If Databaseserverisrunning = True Then
+            DatabaseServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
+            DatabaseServer.StartInfo.FileName = CurrentPath & "\Program\DatabaseServer.exe"
+            DatabaseServer.CloseMainWindow()
+            Databaseserverisrunning = False
+        End If
+
+        If certifierisrunning = True Then
+            Certifier.StartInfo.WorkingDirectory = CurrentPath & "\Program"
+            Certifier.StartInfo.FileName = CurrentPath & "\Program\Certifier.exe"
+            Certifier.CloseMainWindow()
+            certifierisrunning = False
+        End If
+
+        If accountserverrunning = True Then
+            AccountServer.StartInfo.WorkingDirectory = CurrentPath & "\Program"
+            AccountServer.StartInfo.FileName = CurrentPath & "\Program\AccountServer.exe"
+            AccountServer.CloseMainWindow()
+            accountserverrunning = False
         End If
     End Sub
 End Class

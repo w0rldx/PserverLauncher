@@ -8,3 +8,13 @@ I:\Server Launcher\Server Launcher\obj\Release\Server Launcher.vbproj.GenerateRe
 I:\Server Launcher\Server Launcher\obj\Release\Server Launcher.exe
 I:\Server Launcher\Server Launcher\obj\Release\Server Launcher.xml
 I:\Server Launcher\Server Launcher\obj\Release\Server Launcher.pdb
+E:\User\Michael\Desktop\Server Launcher\Server Launcher\bin\Release\Server Launcher.exe.config
+E:\User\Michael\Desktop\Server Launcher\Server Launcher\bin\Release\Server Launcher.exe
+E:\User\Michael\Desktop\Server Launcher\Server Launcher\bin\Release\Server Launcher.pdb
+E:\User\Michael\Desktop\Server Launcher\Server Launcher\bin\Release\Server Launcher.xml
+E:\User\Michael\Desktop\Server Launcher\Server Launcher\obj\Release\Server_Launcher.ManagerForm.resources
+E:\User\Michael\Desktop\Server Launcher\Server Launcher\obj\Release\Server_Launcher.Resources.resources
+E:\User\Michael\Desktop\Server Launcher\Server Launcher\obj\Release\Server Launcher.vbproj.GenerateResource.Cache
+E:\User\Michael\Desktop\Server Launcher\Server Launcher\obj\Release\Server Launcher.exe
+E:\User\Michael\Desktop\Server Launcher\Server Launcher\obj\Release\Server Launcher.xml
+E:\User\Michael\Desktop\Server Launcher\Server Launcher\obj\Release\Server Launcher.pdb

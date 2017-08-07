@@ -22,6 +22,7 @@ Partial Class ManagerForm
     'Das Bearbeiten mit dem Code-Editor ist nicht möglich.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ManagerForm))
         Me.CarbonFiberTheme1 = New Server_Launcher.CarbonFiberTheme()
         Me.CarbonFiberButton2 = New Server_Launcher.CarbonFiberButton()
         Me.CarbonFiberLabel14 = New Server_Launcher.CarbonFiberLabel()
@@ -244,7 +245,7 @@ Partial Class ManagerForm
         Me.CarbonFiberLabel6.Customization = ""
         Me.CarbonFiberLabel6.Font = New System.Drawing.Font("Verdana", 8.0!)
         Me.CarbonFiberLabel6.Image = Nothing
-        Me.CarbonFiberLabel6.Location = New System.Drawing.Point(15, 142)
+        Me.CarbonFiberLabel6.Location = New System.Drawing.Point(15, 122)
         Me.CarbonFiberLabel6.Name = "CarbonFiberLabel6"
         Me.CarbonFiberLabel6.NoRounding = False
         Me.CarbonFiberLabel6.Size = New System.Drawing.Size(80, 14)
@@ -259,7 +260,7 @@ Partial Class ManagerForm
         Me.CarbonFiberLabel5.Customization = ""
         Me.CarbonFiberLabel5.Font = New System.Drawing.Font("Verdana", 8.0!)
         Me.CarbonFiberLabel5.Image = Nothing
-        Me.CarbonFiberLabel5.Location = New System.Drawing.Point(15, 122)
+        Me.CarbonFiberLabel5.Location = New System.Drawing.Point(15, 142)
         Me.CarbonFiberLabel5.Name = "CarbonFiberLabel5"
         Me.CarbonFiberLabel5.NoRounding = False
         Me.CarbonFiberLabel5.Size = New System.Drawing.Size(84, 14)
@@ -274,7 +275,7 @@ Partial Class ManagerForm
         Me.CarbonFiberLabel4.Customization = ""
         Me.CarbonFiberLabel4.Font = New System.Drawing.Font("Verdana", 8.0!)
         Me.CarbonFiberLabel4.Image = Nothing
-        Me.CarbonFiberLabel4.Location = New System.Drawing.Point(15, 102)
+        Me.CarbonFiberLabel4.Location = New System.Drawing.Point(15, 62)
         Me.CarbonFiberLabel4.Name = "CarbonFiberLabel4"
         Me.CarbonFiberLabel4.NoRounding = False
         Me.CarbonFiberLabel4.Size = New System.Drawing.Size(58, 14)
@@ -289,7 +290,7 @@ Partial Class ManagerForm
         Me.CarbonFiberLabel3.Customization = ""
         Me.CarbonFiberLabel3.Font = New System.Drawing.Font("Verdana", 8.0!)
         Me.CarbonFiberLabel3.Image = Nothing
-        Me.CarbonFiberLabel3.Location = New System.Drawing.Point(15, 82)
+        Me.CarbonFiberLabel3.Location = New System.Drawing.Point(15, 102)
         Me.CarbonFiberLabel3.Name = "CarbonFiberLabel3"
         Me.CarbonFiberLabel3.NoRounding = False
         Me.CarbonFiberLabel3.Size = New System.Drawing.Size(76, 14)
@@ -304,7 +305,7 @@ Partial Class ManagerForm
         Me.CarbonFiberLabel2.Customization = ""
         Me.CarbonFiberLabel2.Font = New System.Drawing.Font("Verdana", 8.0!)
         Me.CarbonFiberLabel2.Image = Nothing
-        Me.CarbonFiberLabel2.Location = New System.Drawing.Point(15, 62)
+        Me.CarbonFiberLabel2.Location = New System.Drawing.Point(15, 82)
         Me.CarbonFiberLabel2.Name = "CarbonFiberLabel2"
         Me.CarbonFiberLabel2.NoRounding = False
         Me.CarbonFiberLabel2.Size = New System.Drawing.Size(102, 14)
@@ -375,11 +376,12 @@ Partial Class ManagerForm
         Me.ClientSize = New System.Drawing.Size(322, 285)
         Me.Controls.Add(Me.CarbonFiberTheme1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "ManagerForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "Server Manager Tool"
         Me.TransparencyKey = System.Drawing.Color.Fuchsia
         Me.CarbonFiberTheme1.ResumeLayout(False)
         Me.ResumeLayout(False)
