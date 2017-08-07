@@ -1,0 +1,33 @@
+e:\user\michael\dokumente\visual studio 2017\Projects\Server Launcher\Server Launcher\bin\Debug\Server Launcher.exe.config
+e:\user\michael\dokumente\visual studio 2017\Projects\Server Launcher\Server Launcher\bin\Debug\Server Launcher.exe
+e:\user\michael\dokumente\visual studio 2017\Projects\Server Launcher\Server Launcher\bin\Debug\Server Launcher.pdb
+e:\user\michael\dokumente\visual studio 2017\Projects\Server Launcher\Server Launcher\bin\Debug\Server Launcher.xml
+e:\user\michael\dokumente\visual studio 2017\Projects\Server Launcher\Server Launcher\obj\Debug\Server_Launcher.Resources.resources
+e:\user\michael\dokumente\visual studio 2017\Projects\Server Launcher\Server Launcher\obj\Debug\Server Launcher.vbproj.GenerateResource.Cache
+e:\user\michael\dokumente\visual studio 2017\Projects\Server Launcher\Server Launcher\obj\Debug\Server Launcher.exe
+e:\user\michael\dokumente\visual studio 2017\Projects\Server Launcher\Server Launcher\obj\Debug\Server Launcher.xml
+e:\user\michael\dokumente\visual studio 2017\Projects\Server Launcher\Server Launcher\obj\Debug\Server Launcher.pdb
+e:\user\michael\dokumente\visual studio 2017\Projects\Server Launcher\Server Launcher\obj\Debug\Server_Launcher.ManagerForm.resources
+e:\user\michael\dokumente\visual studio 2017\Projects\Server Launcher\Server Launcher\obj\Debug\Server Launcher.vbprojResolveAssemblyReference.cache
+D:\Server Launcher\Server Launcher\bin\Debug\Server Launcher.exe.config
+D:\Server Launcher\Server Launcher\bin\Debug\Server Launcher.exe
+D:\Server Launcher\Server Launcher\bin\Debug\Server Launcher.pdb
+D:\Server Launcher\Server Launcher\bin\Debug\Server Launcher.xml
+D:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.vbprojResolveAssemblyReference.cache
+D:\Server Launcher\Server Launcher\obj\Debug\Server_Launcher.ManagerForm.resources
+D:\Server Launcher\Server Launcher\obj\Debug\Server_Launcher.Resources.resources
+D:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.vbproj.GenerateResource.Cache
+D:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.exe
+D:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.xml
+D:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.pdb
+I:\Server Launcher\Server Launcher\bin\Debug\Server Launcher.exe.config
+I:\Server Launcher\Server Launcher\bin\Debug\Server Launcher.exe
+I:\Server Launcher\Server Launcher\bin\Debug\Server Launcher.pdb
+I:\Server Launcher\Server Launcher\bin\Debug\Server Launcher.xml
+I:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.vbprojResolveAssemblyReference.cache
+I:\Server Launcher\Server Launcher\obj\Debug\Server_Launcher.ManagerForm.resources
+I:\Server Launcher\Server Launcher\obj\Debug\Server_Launcher.Resources.resources
+I:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.vbproj.GenerateResource.Cache
+I:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.exe
+I:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.xml
+I:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.pdb

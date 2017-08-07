@@ -1,0 +1,10 @@
+I:\Server Launcher\Server Launcher\bin\Release\Server Launcher.exe.config
+I:\Server Launcher\Server Launcher\bin\Release\Server Launcher.exe
+I:\Server Launcher\Server Launcher\bin\Release\Server Launcher.pdb
+I:\Server Launcher\Server Launcher\bin\Release\Server Launcher.xml
+I:\Server Launcher\Server Launcher\obj\Release\Server_Launcher.ManagerForm.resources
+I:\Server Launcher\Server Launcher\obj\Release\Server_Launcher.Resources.resources
+I:\Server Launcher\Server Launcher\obj\Release\Server Launcher.vbproj.GenerateResource.Cache
+I:\Server Launcher\Server Launcher\obj\Release\Server Launcher.exe
+I:\Server Launcher\Server Launcher\obj\Release\Server Launcher.xml
+I:\Server Launcher\Server Launcher\obj\Release\Server Launcher.pdb
