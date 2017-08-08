@@ -23,7 +23,6 @@ Public Class ManagerForm
     Dim CurrentPath As String = Application.StartupPath
     Dim path As String = Directory.GetCurrentDirectory()
 
-
     Private Sub ManagerForm_Load(sender As Object, e As EventArgs) Handles Me.Load
         checkrunning()
         Me.BackgroundWorker1.RunWorkerAsync(2000)
