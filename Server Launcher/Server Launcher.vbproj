@@ -47,9 +47,12 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>device-and-hardware.ico</ApplicationIcon>
+    <ApplicationIcon>Zubehör\device-and-hardware.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nUpdate">
+      <HintPath>..\..\..\..\Desktop\nUpdater\nUpdate dll\nUpdate.ProvideTAP\nUpdate.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -75,11 +78,35 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ManagerForm.vb">
+    <Compile Include="Forms\ManagerForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManagerForm.Designer.vb">
+    <Compile Include="Forms\ManagerForm.Designer.vb">
       <DependentUpon>ManagerForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pfad.Designer.vb">
+      <DependentUpon>Pfad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pfad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Startreihenfolge.Designer.vb">
+      <DependentUpon>Startreihenfolge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Startreihenfolge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Verzögerung.Designer.vb">
+      <DependentUpon>Verzögerung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Verzögerung.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -102,8 +129,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ManagerForm.resx">
+    <EmbeddedResource Include="Forms\ManagerForm.resx">
       <DependentUpon>ManagerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pfad.resx">
+      <DependentUpon>Pfad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Startreihenfolge.resx">
+      <DependentUpon>Startreihenfolge.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Verzögerung.resx">
+      <DependentUpon>Verzögerung.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -125,7 +164,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="device-and-hardware.ico" />
+    <Content Include="Zubehör\device-and-hardware.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

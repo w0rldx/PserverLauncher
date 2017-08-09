@@ -31,3 +31,27 @@ I:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.vbproj.GenerateReso
 I:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.exe
 I:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.xml
 I:\Server Launcher\Server Launcher\obj\Debug\Server Launcher.pdb
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\Server Launcher.exe.config
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\Server Launcher.exe
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\Server Launcher.pdb
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\Server Launcher.xml
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\nUpdate.dll
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\Microsoft.Threading.Tasks.dll
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\Newtonsoft.Json.dll
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\nUpdate.pdb
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\nUpdate.xml
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\nUpdate.dll.config
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\Microsoft.Threading.Tasks.xml
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\Newtonsoft.Json.pdb
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Debug\Server_Launcher.ManagerForm.resources
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Debug\Server_Launcher.Settings.resources
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Debug\Server_Launcher.Startreihenfolge.resources
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Debug\Server_Launcher.Verzögerung.resources
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Debug\Server_Launcher.Resources.resources
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Debug\Server Launcher.vbproj.GenerateResource.Cache
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Debug\Server Launcher.exe
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Debug\Server Launcher.xml
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Debug\Server Launcher.pdb
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Debug\Server_Launcher.path.resources

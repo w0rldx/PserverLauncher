@@ -1,6 +1,8 @@
 ﻿Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
+Imports nUpdate.Core
+
 
 ' Allgemeine Informationen über eine Assembly werden über die folgenden
 ' Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
@@ -33,3 +35,4 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("1.0.0.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: nUpdateVersion("1.1.0.0")>

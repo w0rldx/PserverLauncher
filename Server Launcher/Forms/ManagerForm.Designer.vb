@@ -24,6 +24,7 @@ Partial Class ManagerForm
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ManagerForm))
         Me.CarbonFiberTheme1 = New Server_Launcher.CarbonFiberTheme()
+        Me.CarbonFiberButton3 = New Server_Launcher.CarbonFiberButton()
         Me.CarbonFiberButton2 = New Server_Launcher.CarbonFiberButton()
         Me.CarbonFiberLabel14 = New Server_Launcher.CarbonFiberLabel()
         Me.CarbonFiberLabel13 = New Server_Launcher.CarbonFiberLabel()
@@ -45,6 +46,7 @@ Partial Class ManagerForm
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.BackgroundWorker2 = New System.ComponentModel.BackgroundWorker()
         Me.BackgroundWorker3 = New System.ComponentModel.BackgroundWorker()
+        Me.CarbonFiberControlButton2 = New Server_Launcher.CarbonFiberControlButton()
         Me.CarbonFiberTheme1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -53,6 +55,8 @@ Partial Class ManagerForm
         Me.CarbonFiberTheme1.BackColor = System.Drawing.Color.FromArgb(CType(CType(22, Byte), Integer), CType(CType(22, Byte), Integer), CType(CType(22, Byte), Integer))
         Me.CarbonFiberTheme1.BorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.CarbonFiberTheme1.Colors = New Server_Launcher.Bloom(-1) {}
+        Me.CarbonFiberTheme1.Controls.Add(Me.CarbonFiberControlButton2)
+        Me.CarbonFiberTheme1.Controls.Add(Me.CarbonFiberButton3)
         Me.CarbonFiberTheme1.Controls.Add(Me.CarbonFiberButton2)
         Me.CarbonFiberTheme1.Controls.Add(Me.CarbonFiberLabel14)
         Me.CarbonFiberTheme1.Controls.Add(Me.CarbonFiberLabel13)
@@ -81,14 +85,28 @@ Partial Class ManagerForm
         Me.CarbonFiberTheme1.Name = "CarbonFiberTheme1"
         Me.CarbonFiberTheme1.NoRounding = False
         Me.CarbonFiberTheme1.ShowIcon = False
-        Me.CarbonFiberTheme1.Sizable = True
-        Me.CarbonFiberTheme1.Size = New System.Drawing.Size(322, 285)
+        Me.CarbonFiberTheme1.Sizable = False
+        Me.CarbonFiberTheme1.Size = New System.Drawing.Size(322, 322)
         Me.CarbonFiberTheme1.SmartBounds = True
-        Me.CarbonFiberTheme1.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.CarbonFiberTheme1.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.CarbonFiberTheme1.TabIndex = 0
         Me.CarbonFiberTheme1.Text = "Server Manager Tool"
         Me.CarbonFiberTheme1.TransparencyKey = System.Drawing.Color.Fuchsia
         Me.CarbonFiberTheme1.Transparent = False
+        '
+        'CarbonFiberButton3
+        '
+        Me.CarbonFiberButton3.Colors = New Server_Launcher.Bloom(-1) {}
+        Me.CarbonFiberButton3.Customization = ""
+        Me.CarbonFiberButton3.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CarbonFiberButton3.Image = Nothing
+        Me.CarbonFiberButton3.Location = New System.Drawing.Point(15, 272)
+        Me.CarbonFiberButton3.Name = "CarbonFiberButton3"
+        Me.CarbonFiberButton3.NoRounding = False
+        Me.CarbonFiberButton3.Size = New System.Drawing.Size(290, 29)
+        Me.CarbonFiberButton3.TabIndex = 19
+        Me.CarbonFiberButton3.Text = "Settings"
+        Me.CarbonFiberButton3.Transparent = False
         '
         'CarbonFiberButton2
         '
@@ -349,7 +367,7 @@ Partial Class ManagerForm
         Me.CarbonFiberControlButton1.Customization = ""
         Me.CarbonFiberControlButton1.Font = New System.Drawing.Font("Verdana", 8.0!)
         Me.CarbonFiberControlButton1.Image = Nothing
-        Me.CarbonFiberControlButton1.Location = New System.Drawing.Point(286, 5)
+        Me.CarbonFiberControlButton1.Location = New System.Drawing.Point(293, 3)
         Me.CarbonFiberControlButton1.Name = "CarbonFiberControlButton1"
         Me.CarbonFiberControlButton1.NoRounding = False
         Me.CarbonFiberControlButton1.Size = New System.Drawing.Size(26, 20)
@@ -369,18 +387,36 @@ Partial Class ManagerForm
         'BackgroundWorker3
         '
         '
+        'CarbonFiberControlButton2
+        '
+        Me.CarbonFiberControlButton2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.CarbonFiberControlButton2.Colors = New Server_Launcher.Bloom(-1) {}
+        Me.CarbonFiberControlButton2.Customization = ""
+        Me.CarbonFiberControlButton2.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CarbonFiberControlButton2.Image = Nothing
+        Me.CarbonFiberControlButton2.Location = New System.Drawing.Point(261, 3)
+        Me.CarbonFiberControlButton2.Name = "CarbonFiberControlButton2"
+        Me.CarbonFiberControlButton2.NoRounding = False
+        Me.CarbonFiberControlButton2.Size = New System.Drawing.Size(26, 20)
+        Me.CarbonFiberControlButton2.StateClose = False
+        Me.CarbonFiberControlButton2.StateMaximize = False
+        Me.CarbonFiberControlButton2.StateMinimize = True
+        Me.CarbonFiberControlButton2.TabIndex = 20
+        Me.CarbonFiberControlButton2.Text = "CarbonFiberControlButton2"
+        Me.CarbonFiberControlButton2.Transparent = False
+        '
         'ManagerForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(322, 285)
+        Me.ClientSize = New System.Drawing.Size(322, 322)
         Me.Controls.Add(Me.CarbonFiberTheme1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "ManagerForm"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Server Manager Tool"
         Me.TransparencyKey = System.Drawing.Color.Fuchsia
         Me.CarbonFiberTheme1.ResumeLayout(False)
@@ -410,4 +446,6 @@ Partial Class ManagerForm
     Friend WithEvents CarbonFiberButton2 As CarbonFiberButton
     Friend WithEvents BackgroundWorker2 As System.ComponentModel.BackgroundWorker
     Friend WithEvents BackgroundWorker3 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents CarbonFiberButton3 As CarbonFiberButton
+    Friend WithEvents CarbonFiberControlButton2 As CarbonFiberControlButton
 End Class

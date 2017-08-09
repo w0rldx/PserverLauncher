@@ -18,3 +18,28 @@ E:\User\Michael\Desktop\Server Launcher\Server Launcher\obj\Release\Server Launc
 E:\User\Michael\Desktop\Server Launcher\Server Launcher\obj\Release\Server Launcher.exe
 E:\User\Michael\Desktop\Server Launcher\Server Launcher\obj\Release\Server Launcher.xml
 E:\User\Michael\Desktop\Server Launcher\Server Launcher\obj\Release\Server Launcher.pdb
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\Server Launcher.exe.config
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\Server Launcher.exe
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\Server Launcher.pdb
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\Server Launcher.xml
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\nUpdate.dll
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\Microsoft.Threading.Tasks.dll
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\Newtonsoft.Json.dll
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\Microsoft.Threading.Tasks.Extensions.dll
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\nUpdate.pdb
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\nUpdate.xml
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\nUpdate.dll.config
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\Microsoft.Threading.Tasks.xml
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\Newtonsoft.Json.pdb
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\bin\Release\Microsoft.Threading.Tasks.Extensions.xml
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Release\Server_Launcher.ManagerForm.resources
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Release\Server_Launcher.Settings.resources
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Release\Server_Launcher.Startreihenfolge.resources
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Release\Server_Launcher.Verzögerung.resources
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Release\Server_Launcher.Resources.resources
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Release\Server Launcher.vbproj.GenerateResource.Cache
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Release\Server Launcher.exe
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Release\Server Launcher.xml
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Release\Server Launcher.pdb
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Release\Server_Launcher.path.resources
+E:\User\Michael\Dokumente\GitHub\PserverLauncher\Server Launcher\obj\Release\Server Launcher.vbprojResolveAssemblyReference.cache
